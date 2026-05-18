@@ -1,0 +1,108 @@
+<html>
+<head>
+<title>Nasi Liwet</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <h2>Nusantara Rasa</h2>
+
+  <nav>
+    <a href="home.html">Home</a>
+
+    <div class="dropdown">
+      <a href="#">Nasi ▾</a>
+      <div class="dropdown-content">
+        <a href="nasi_goreng.html">Nasi Goreng</a>
+        <a href="nasi_liwet.html">Nasi Liwet</a>
+      </div>
+    </div>
+
+    <a href="register.html">Register</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero2">
+  <div class="hero-text">
+    <h1>Nasi Liwet</h1>
+    <p>Lezat, gurih, dan khas masakan tradisional Indonesia</p>
+  </div>
+</section>
+
+<!-- MENU -->
+<section class="menu">
+  <h2>Our Nasi Liwet Menu</h2>
+
+  <div class="menu-container">
+
+    <div class="card">
+      <img src="naslior.jpg">
+      <h3>Nasi Liwet Original</h3>
+      <p>Nasi liwet tradisional dengan ayam dan lalapan.</p>
+      <h4>Rp 22.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="nasliyam.jpg">
+      <h3>Nasi Liwet Ayam</h3>
+      <p>Nasi liwet gurih dengan ayam goreng spesial.</p>
+      <h4>Rp 28.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="nasliko.jpg">
+      <h3>Nasi Liwet Komplit</h3>
+      <p>Dilengkapi tahu, tempe, telur, dan sambal.</p>
+      <h4>Rp 30.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="naslikan.jpg">
+      <h3>Nasi Liwet Ikan</h3>
+      <p>Nasi liwet dengan ikan asin khas Sunda.</p>
+      <h4>Rp 25.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="naslipe.jpg">
+      <h3>Nasi Liwet Pedas</h3>
+      <p>Perpaduan nasi gurih dan sambal pedas nikmat.</p>
+      <h4>Rp 24.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="naslisea.jpg">
+      <h3>Nasi Liwet Seafood</h3>
+      <p>Nasi liwet spesial dengan udang dan cumi.</p>
+      <h4>Rp 35.000</h4>
+      <button>Buy</button>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 Nusantara Rasa
+</footer>
+
+</body>
+<script>
+
+let buttons = document.querySelectorAll("button");
+
+buttons.forEach(function(btn){
+  btn.addEventListener("click", function(){
+    alert("Produk berhasil ditambahkan ke cart!");
+  });
+});
+
+</script>
+</html>

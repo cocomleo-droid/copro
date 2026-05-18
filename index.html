@@ -1,0 +1,163 @@
+<html>
+<head>
+<title>Nusantara Rasa</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="navbar">
+  <h2>Nusantara Rasa</h2>
+
+  <nav>
+    <a href="home.html">Home</a>
+
+    <div class="dropdown">
+      <a href="#">Nasi </a>
+      <div class="dropdown-content">
+        <a href="nasi_goreng.html">Nasi Goreng</a>
+        <a href="nasi_liwet.html">Nasi Liwet</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <a href="#">Sate </a>
+      <div class="dropdown-content">
+        <a href="sate_ayam.html">Sate Ayam</a>
+        <a href="sate_kambing.html">Sate Kambing</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <a href="#">Bakso </a>
+      <div class="dropdown-content">
+        <a href="bakso_urat.html">Bakso Urat</a>
+        <a href="bakso_mercon.html">Bakso Mercon</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <a href="#">Mie </a>
+      <div class="dropdown-content">
+        <a href="mie_ayam.html">Mie Ayam</a>
+        <a href="mie_goreng.html">Mie Goreng</a>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <a href="#">Dessert </a>
+      <div class="dropdown-content">
+        <a href="es_campur.html">Es Campur</a>
+        <a href="klepon.html">Klepon</a>
+      </div>
+    </div>
+
+    <a href="register.html">Register</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+<img src="banner.png">
+  <div class="hero-text">
+    <h3>WELCOME TO</h3>
+    <h1>NUSANTARA RASA</h1>
+  <p>Makanan Tradisional • Rasa Autentik • Harga Bersahabat</p>
+    <a href="nasi_goreng.html" class="btn">ORDER NOW</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+  <h2>About Our Restaurant</h2>
+  <p>
+    Nusantara Rasa adalah restoran khas Indonesia yang menyajikan berbagai
+    makanan tradisional dengan cita rasa autentik. Kami menggunakan bahan
+    berkualitas dan resep pilihan agar pelanggan mendapatkan pengalaman
+    makan terbaik.
+  </p>
+</section>
+
+<!-- FEATURE -->
+<section class="feature">
+  <div class="feature-box"> Makanan Tradisional</div>
+  <div class="feature-box"> Chef Berpengalaman</div>
+  <div class="feature-box"> Pelayanan Terbaik</div>
+</section>
+
+<!-- PRODUCT -->
+<section class="menu">
+  <h2>Best Seller Menu</h2>
+
+  <div class="menu-container">
+
+    <div class="card">
+      <img src="nasgorspe.jpg">
+      <h3>Nasi Goreng Special</h3>
+      <p>Nasi goreng dengan telur dan ayam spesial.</p>
+      <h4>Rp 25.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="satyam.jpg">
+      <h3>Sate Ayam</h3>
+      <p>Sate ayam dengan bumbu kacang khas.</p>
+      <h4>Rp 30.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="bakrat.jpg">
+      <h3>Bakso Urat</h3>
+      <p>Bakso urat kenyal dengan kuah gurih.</p>
+      <h4>Rp 22.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="miyam.jpg">
+      <h3>Mie Ayam</h3>
+      <p>Mie ayam lezat dengan topping melimpah.</p>
+      <h4>Rp 20.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="escam.jpg">
+      <h3>Es Campur</h3>
+      <p>Minuman segar dengan buah dan sirup.</p>
+      <h4>Rp 18.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="klepon.jpg">
+      <h3>Klepon</h3>
+      <p>Kue tradisional isi gula merah.</p>
+      <h4>Rp 15.000</h4>
+      <button>Buy</button>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  © 2026 Nusantara Rasa | Indonesian Food Restaurant
+</footer>
+
+</body>
+<script>
+
+let buttons = document.querySelectorAll("button");
+
+buttons.forEach(function(btn){
+  btn.addEventListener("click", function(){
+    alert("Produk berhasil ditambahkan ke cart!");
+  });
+});
+
+</script>
+</html>

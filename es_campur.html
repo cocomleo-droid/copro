@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>Es Campur</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <h2>Nusantara Rasa</h2>
+
+  <nav>
+    <a href="home.html">Home</a>
+
+    <div class="dropdown">
+      <a href="#">Dessert ▾</a>
+      <div class="dropdown-content">
+        <a href="es_campur.html">Es Campur</a>
+        <a href="klepon.html">Klepon</a>
+      </div>
+    </div>
+
+    <a href="register.html">Register</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero2">
+  <div class="hero-text">
+    <h1>Es Campur</h1>
+    <p>Minuman segar khas Indonesia dengan berbagai topping lezat</p>
+  </div>
+</section>
+
+<!-- MENU -->
+<section class="menu">
+  <h2>Our Es Campur Menu</h2>
+
+  <div class="menu-container">
+
+    <div class="card">
+      <img src="escao.jpg">
+      <h3>Es Campur Original</h3>
+      <p>Es campur segar dengan buah dan sirup manis.</p>
+      <h4>Rp 15.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="escabu.jpg">
+      <h3>Es Campur Buah</h3>
+      <p>Perpaduan buah segar dengan susu spesial.</p>
+      <h4>Rp 18.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="escaco.jpg">
+      <h3>Es Campur Coklat</h3>
+      <p>Es campur manis dengan topping coklat lezat.</p>
+      <h4>Rp 20.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="escaje.jpg">
+      <h3>Es Campur Jelly</h3>
+      <p>Es campur dengan tambahan jelly warna-warni.</p>
+      <h4>Rp 17.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="escadu.jpg">
+      <h3>Es Campur Durian</h3>
+      <p>Es campur premium dengan durian asli.</p>
+      <h4>Rp 25.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="escape.jpg">
+      <h3>Es Campur Special</h3>
+      <p>Menu lengkap dengan topping buah dan es krim.</p>
+      <h4>Rp 28.000</h4>
+      <button>Buy</button>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 Nusantara Rasa
+</footer>
+
+</body>
+let buttons = document.querySelectorAll("button");
+<script>
+
+let buttons = document.querySelectorAll("button");
+
+buttons.forEach(function(btn){
+  btn.addEventListener("click", function(){
+    alert("Produk berhasil ditambahkan ke cart!");
+  });
+});
+
+</script>
+</html>

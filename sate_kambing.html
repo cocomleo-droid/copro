@@ -1,0 +1,108 @@
+<html>
+<head>
+<title>Sate Kambing</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <h2>Nusantara Rasa</h2>
+
+  <nav>
+    <a href="home.html">Home</a>
+
+    <div class="dropdown">
+      <a href="#">Sate ▾</a>
+      <div class="dropdown-content">
+        <a href="sate_ayam.html">Sate Ayam</a>
+        <a href="sate_kambing.html">Sate Kambing</a>
+      </div>
+    </div>
+
+    <a href="register.html">Register</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero2">
+  <div class="hero-text">
+    <h1>Sate Kambing</h1>
+    <p>Sate kambing empuk dengan cita rasa khas Nusantara</p>
+  </div>
+</section>
+
+<!-- MENU -->
+<section class="menu">
+  <h2>Our Sate Kambing Menu</h2>
+
+  <div class="menu-container">
+
+    <div class="card">
+      <img src="sakior.jpg">
+      <h3>Sate Kambing Original</h3>
+      <p>Sate kambing dengan bumbu kecap tradisional.</p>
+      <h4>Rp 35.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="sakipe.jpg">
+      <h3>Sate Kambing Pedas</h3>
+      <p>Sate kambing dengan sambal pedas spesial.</p>
+      <h4>Rp 37.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="sakijum.jpg">
+      <h3>Sate Kambing Jumbo</h3>
+      <p>Daging kambing premium dengan ukuran besar.</p>
+      <h4>Rp 42.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="sakilo.jpg">
+      <h3>Sate Kambing Lontong</h3>
+      <p>Sate kambing lengkap dengan lontong gurih.</p>
+      <h4>Rp 40.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="sakitef.jpg">
+      <h3>Sate Kambing Teflon</h3>
+      <p>Sate kambing modern dengan bumbu rempah.</p>
+      <h4>Rp 38.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="sakispe.jpg">
+      <h3>Sate Kambing Special</h3>
+      <p>Paket lengkap sate kambing dengan nasi.</p>
+      <h4>Rp 45.000</h4>
+      <button>Buy</button>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 Nusantara Rasa
+</footer>
+
+</body>
+<script>
+
+let buttons = document.querySelectorAll("button");
+
+buttons.forEach(function(btn){
+  btn.addEventListener("click", function(){
+    alert("Produk berhasil ditambahkan ke cart!");
+  });
+});
+
+</script>
+</html>

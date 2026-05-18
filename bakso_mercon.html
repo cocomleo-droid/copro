@@ -1,0 +1,108 @@
+<html>
+<head>
+<title>Bakso Mercon</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <h2>Nusantara Rasa</h2>
+
+  <nav>
+    <a href="home.html">Home</a>
+
+    <div class="dropdown">
+      <a href="#">Bakso ▾</a>
+      <div class="dropdown-content">
+        <a href="bakso_urat.html">Bakso Urat</a>
+        <a href="bakso_mercon.html">Bakso Mercon</a>
+      </div>
+    </div>
+
+    <a href="register.html">Register</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero2">
+  <div class="hero-text">
+    <h1>Bakso Mercon</h1>
+    <p>Bakso super pedas dengan sensasi menggigit</p>
+  </div>
+</section>
+
+<!-- MENU -->
+<section class="menu">
+  <h2>Our Bakso Mercon Menu</h2>
+
+  <div class="menu-container">
+
+    <div class="card">
+      <img src="bameo.jpg">
+      <h3>Bakso Mercon Original</h3>
+      <p>Bakso pedas dengan sambal khas mercon.</p>
+      <h4>Rp 23.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="bameju.jpg">
+      <h3>Bakso Mercon Jumbo</h3>
+      <p>Bakso ukuran besar dengan isian cabai melimpah.</p>
+      <h4>Rp 30.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="bame5.jpg">
+      <h3>Bakso Mercon Level 5</h3>
+      <p>Bakso pedas level sedang yang nikmat.</p>
+      <h4>Rp 25.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="bamela.jpg">
+      <h3>Bakso Mercon Lava</h3>
+      <p>Bakso isi sambal lava super pedas.</p>
+      <h4>Rp 32.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="bamei.jpg">
+      <h3>Bakso Mercon Mie</h3>
+      <p>Bakso mercon dengan mie dan topping lengkap.</p>
+      <h4>Rp 28.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="bamespe.jpg">
+      <h3>Bakso Mercon Special</h3>
+      <p>Paket bakso lengkap dengan sambal ekstra pedas.</p>
+      <h4>Rp 35.000</h4>
+      <button>Buy</button>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 Nusantara Rasa
+</footer>
+
+</body>
+<script>
+
+let buttons = document.querySelectorAll("button");
+
+buttons.forEach(function(btn){
+  btn.addEventListener("click", function(){
+    alert("Produk berhasil ditambahkan ke cart!");
+  });
+});
+
+</script>
+</html>

@@ -1,0 +1,108 @@
+<html>
+<head>
+<title>Klepon</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <h2>Nusantara Rasa</h2>
+
+  <nav>
+    <a href="home.html">Home</a>
+
+    <div class="dropdown">
+      <a href="#">Dessert ▾</a>
+      <div class="dropdown-content">
+        <a href="es_campur.html">Es Campur</a>
+        <a href="klepon.html">Klepon</a>
+      </div>
+    </div>
+
+    <a href="register.html">Register</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero2">
+  <div class="hero-text">
+    <h1>Klepon</h1>
+    <p>Kue tradisional manis dengan isi gula merah lezat</p>
+  </div>
+</section>
+
+<!-- MENU -->
+<section class="menu">
+  <h2>Our Klepon Menu</h2>
+
+  <div class="menu-container">
+
+    <div class="card">
+      <img src="kle.jpg">
+      <h3>Klepon Original</h3>
+      <p>Klepon tradisional dengan taburan kelapa parut.</p>
+      <h4>Rp 10.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="klep.jpg">
+      <h3>Klepon Pandan</h3>
+      <p>Klepon hijau pandan dengan aroma harum khas.</p>
+      <h4>Rp 12.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="kleco.jpg">
+      <h3>Klepon Coklat</h3>
+      <p>Klepon isi coklat manis dan lembut.</p>
+      <h4>Rp 15.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="kleke.jpg">
+      <h3>Klepon Keju</h3>
+      <p>Klepon modern dengan topping keju lezat.</p>
+      <h4>Rp 16.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="klest.jpg">
+      <h3>Klepon Strawberry</h3>
+      <p>Klepon dengan rasa strawberry segar.</p>
+      <h4>Rp 17.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="klespe.jpg">
+      <h3>Klepon Special</h3>
+      <p>Klepon premium dengan berbagai topping pilihan.</p>
+      <h4>Rp 20.000</h4>
+      <button>Buy</button>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 Nusantara Rasa
+</footer>
+
+</body>
+<script>
+
+let buttons = document.querySelectorAll("button");
+
+buttons.forEach(function(btn){
+  btn.addEventListener("click", function(){
+    alert("Produk berhasil ditambahkan ke cart!");
+  });
+});
+
+</script>
+</html>

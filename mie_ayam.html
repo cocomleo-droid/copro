@@ -1,0 +1,108 @@
+<html>
+<head>
+<title>Mie Ayam</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <h2>Nusantara Rasa</h2>
+
+  <nav>
+    <a href="home.html">Home</a>
+
+    <div class="dropdown">
+      <a href="#">Mie ▾</a>
+      <div class="dropdown-content">
+        <a href="mie_ayam.html">Mie Ayam</a>
+        <a href="mie_goreng.html">Mie Goreng</a>
+      </div>
+    </div>
+
+    <a href="register.html">Register</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero2">
+  <div class="hero-text">
+    <h1>Mie Ayam</h1>
+    <p>Mie ayam lezat dengan topping ayam gurih spesial</p>
+  </div>
+</section>
+
+<!-- MENU -->
+<section class="menu">
+  <h2>Our Mie Ayam Menu</h2>
+
+  <div class="menu-container">
+
+    <div class="card">
+      <img src="miyaor.jpg">
+      <h3>Mie Ayam Original</h3>
+      <p>Mie ayam klasik dengan kuah gurih.</p>
+      <h4>Rp 18.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="miyaba.jpg">
+      <h3>Mie Ayam Bakso</h3>
+      <p>Mie ayam lengkap dengan bakso kenyal.</p>
+      <h4>Rp 23.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="miyace.jpg">
+      <h3>Mie Ayam Ceker</h3>
+      <p>Mie ayam dengan topping ceker empuk.</p>
+      <h4>Rp 24.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="miyape.jpg">
+      <h3>Mie Ayam Pedas</h3>
+      <p>Mie ayam dengan sambal pedas nikmat.</p>
+      <h4>Rp 20.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="miyaju.jpg">
+      <h3>Mie Ayam Jumbo</h3>
+      <p>Porsi besar dengan topping melimpah.</p>
+      <h4>Rp 27.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="miyaspe.jpg">
+      <h3>Mie Ayam Special</h3>
+      <p>Mie ayam lengkap dengan telur dan bakso.</p>
+      <h4>Rp 30.000</h4>
+      <button>Buy</button>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 Nusantara Rasa
+</footer>
+
+</body>
+<script>
+
+let buttons = document.querySelectorAll("button");
+
+buttons.forEach(function(btn){
+  btn.addEventListener("click", function(){
+    alert("Produk berhasil ditambahkan ke cart!");
+  });
+});
+
+</script>
+</html>

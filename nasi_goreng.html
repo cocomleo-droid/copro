@@ -1,0 +1,108 @@
+<html>
+<head>
+<title>Nasi Goreng</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <h2>Nusantara Rasa</h2>
+
+  <nav>
+    <a href="home.html">Home</a>
+
+    <div class="dropdown">
+      <a href="#">Nasi </a>
+      <div class="dropdown-content">
+        <a href="nasi_goreng.html">Nasi Goreng</a>
+        <a href="nasi_liwet.html">Nasi Liwet</a>
+      </div>
+    </div>
+
+    <a href="register.html">Register</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero2">
+  <div class="hero-text">
+    <h1>Nasi Goreng Special</h1>
+    <p>Masakan khas Indonesia dengan cita rasa autentik</p>
+  </div>
+</section>
+
+<!-- MENU -->
+<section class="menu">
+  <h2>Our Nasi Goreng Menu</h2>
+
+  <div class="menu-container">
+
+    <div class="card">
+      <img src="nasgokrupuk.jpg">
+      <h3>Nasi Goreng Original</h3>
+      <p>Nasi goreng klasik dengan telur dan kerupuk.</p>
+      <h4>Rp 20.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="nasgoryam.jpg">
+      <h3>Nasi Goreng Ayam</h3>
+      <p>Nasi goreng dengan topping ayam gurih.</p>
+      <h4>Rp 25.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="nasgorsea.jpg">
+      <h3>Nasi Goreng Seafood</h3>
+      <p>Perpaduan udang dan cumi yang lezat.</p>
+      <h4>Rp 30.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="nasgorspi.jpg">
+      <h3>Nasi Goreng Pedas</h3>
+      <p>Rasa pedas spesial untuk pecinta cabai.</p>
+      <h4>Rp 23.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="nasgorso.jpg">
+      <h3>Nasi Goreng Sosis</h3>
+      <p>Nasi goreng dengan tambahan sosis premium.</p>
+      <h4>Rp 24.000</h4>
+      <button>Buy</button>
+    </div>
+
+    <div class="card">
+      <img src="nasgorspe1.jpg">
+      <h3>Nasi Goreng Spesial</h3>
+      <p>Menu lengkap dengan telur, ayam, dan seafood.</p>
+      <h4>Rp 35.000</h4>
+      <button>Buy</button>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 Nusantara Rasa
+</footer>
+
+</body>
+<script>
+
+let buttons = document.querySelectorAll("button");
+
+buttons.forEach(function(btn){
+  btn.addEventListener("click", function(){
+    alert("Produk berhasil ditambahkan ke cart!");
+  });
+});
+
+</script>
+</html>
